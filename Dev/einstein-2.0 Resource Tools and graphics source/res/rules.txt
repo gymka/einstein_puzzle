@@ -1,0 +1,48 @@
+rulesText = "
+
+Žaidimo tikslas teisingai užpildyti(pasirinkti teisingą reikšmę) visus langelius 6x6 dydžio kvadrate. Kai visi langeliai užpildyti žaidimo lenta atrodo taip: 
+
+$opensquare.bmp$
+
+Kiekviena eilutė tik vienos rūšies simbolius.
+Pavyzdžiui,
+pirma eilutė turi tik arabiškus skaičius, antra - raides, trečia - romėniškus skaičius,
+ketvirta - kauliukus, penkta - geometrines figūras, šešta - matematinius simbolius.
+
+Naudokis logika ir pašalindamas netinkamus simbolius užpildyk langelius. Jei langelis neužpildytas, jame rodomi visi simboliai kurie gali ten būt pvz. 
+
+$closed.bmp$
+
+reiškia jog langelyje gali būt visi romėniški skaičiai išskyrus III (nes nėra to simbolio tarp tų kurie gali tikt tame langelį). Norėdamas užpildyt langelį spausk kairę pelės leteną ant simbolio kuris turi būt tame langelį.
+Ištrint simbolį iš galimų sprendimo variantų gali naudodamas dešinę pelės leteną.
+
+Naudokis užuominomis norėdamas išspręst galvosūkį.  
+Yra du užuominų tipai:
+padėsiančios horizontaliai ir padėsiančios vertikaliai.  Vertikalios užuominos yra ekrano apačioj.
+Vertikalios užuominos pavyzdys:
+
+$verthint.bmp$
+
+reiškia jog raidė 'B' ir '+' ženklas yra tame pačiame stulpelyje (galim išmest B iš tų langelių virš kurių nėra '+' ir atvirkščiai).
+
+Vertikalios užuominos išdėstytos dešinėj sprendžiamo kvadrato pusėj. Yra net keli horizantalių užuominų variantai.  Pirmas variantas reiškia jog du simboliai yra greta vienas kito, bet nežinoma kuris yra kairėj, o kuris dešinėj:
+
+$hornearhint.bmp$
+
+Antrasis variantas pasakinėja jog dešinysis simbolis negali būt kairiau nei kairysis simbolis. 
+Apie atstumą tarp jų nieko nepasakoma. Jie gali būt šalia, bet gali būt ir skirtingose lentos pusėse:
+
+$horposhint.bmp$
+
+Paskutinis užuominų tipas reiškia, kad vienas simbolis yra supamas likusių dviejų:
+
+$horbetweenhint.bmp$
+
+Visi trys simboliai privalo būti gretimuose langeliuose, vidurinysis simbolis visada yra tarp likusių dviejų, bet likę du gali būt bet kurioj centrinio simbolio pusėj.(5 gali būt kairėj tada = bus dešinėj arba atvirkščiai, bet kvadratas lieka tarp jų).
+
+
+Jei panaudojai užuominą(užpildei langelį remiantis duotąja užuomina) gali paslėpt(idant nemaišytų) ją spausdamas dešinę pelės leteną.
+Gali pamatyt visas paslėptas užuominas spausdamas 'Perjungti' mygtuką.
+
+
+"
