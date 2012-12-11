@@ -21,10 +21,7 @@ Now, who drinks water? Who owns the zebra? In the interest of clarity, it must b
 
 
 Žaidimo kalba: Lietuvių
-Platformos: Windows(bandyta su windows XP), Linux(bandyta su archlinux)
-Windows: sukompiliuota, bet yra ir source.
-Linux: tik source
-MAC: “linux” aplanke yra “Makefile.macosx”, pervadinam į “Makefile” ir kompiliuojam:) (neturiu MAC, nežinau ar veikia)
+MAC: yra “Makefile.macosx”, pervadinam į “Makefile” ir kompiliuojam :) (neturiu MAC, nežinau ar veikia)
 Autorius: games.flowix.com
 Lokalizavo/Išvertė: gymka
 Platinamas pagal licenciją: GNU GENERAL PUBLIC LICENSE
